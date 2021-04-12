@@ -65,8 +65,18 @@ input {
   width: 150%;
   padding-top: 20px;
   border-radius: 30px;
-  padding-left: 1rem;
+  padding-left: 2rem;
   border: 1px solid rgb(195, 195, 195);
+}
+label {
+  position: absolute;
+  left: 32%;
+  top: 46%;
+}
+div.mic {
+  position: absolute;
+  right: 32%;
+  top: 46%;
 }
 button {
   padding: 1rem;
@@ -125,6 +135,14 @@ div.right a {
   }
   main img {
     margin-top: 30%;
+  }
+  label {
+    left: 13%;
+    top: 42%;
+  }
+  div.mic {
+    right: 10%;
+    top: 42%;
   }
   div.btns {
     margin-top: 5px;
